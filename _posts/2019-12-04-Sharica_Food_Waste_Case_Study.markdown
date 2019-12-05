@@ -3,7 +3,7 @@ layout: post
 title:  "Sharica Food Waste Case Study"
 date:   2019-12-04 22:23:24 +0700
 categories: product design
-author: Nisa Fitriani
+author: Nisa Fitrianti
 author_pic: /assets/nisa.jpg
 ---
 
