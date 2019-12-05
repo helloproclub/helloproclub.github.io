@@ -1,0 +1,172 @@
+---
+layout: post
+title: "My Budget"
+date:   2019-12-04 22:23:24 +0900
+categories: product design
+author: Indra Deva 
+author_pic: /assets/indra.jpg 
+---
+
+Design a solution to solve financial problem issues. People who exactly know about the definition of debit, credit, and another definitions in banking world is still low, and it’s impact is peoples who using banking facilities or other financial service is still very low until this day.
+
+It’s not a common thing if you look Indonesian citizens who haven’t yet enjoyed banking services, both in rural and urban areas. Most Indonesian citizens still have difficulty to managing their finance because of the problems which has been mentioned above.
+
+## The Challenges
+- Design a great experience to know about all definitions in banking world
+- Explore users need of banking facilities and financial services
+- Teach users how to manage their finance from articles or any trusted parties
+- Explore how users can easily manage their budgets (income, outcome, wish/users need) and investments in one application called My-Budget
+- Design an application to notify users where the nearest banking facilities are located.
+
+
+## Design Process
+
+Used IDEO’s human centered design thinking process as the main foundation to do this research and for each design process.
+
+![5 Stage of Design Thinking Process](https://paper-attachments.dropbox.com/s_DB2D02C85791C79ADE0414C8CCD4BF8BCD71CFE09BE6AE9B5C029EEBD3BED258_1573537829959_steps-730x345.png)
+
+## Empathize
+
+To understand more about the users, I interviewed a few persons who have an experience related to this topic to solve some issues. I interviewed them to know more about their goals and how their achieve it.
+
+
+## Objective
+- Define how people can’t manage their finance includes their income, outcome, investment and many more.
+- Define how people solve their finance problem. What did they do ?
+- Define how people feel difficult to record their income and outcome.
+- Define how people to know the definition of debit, credit, and another definitions in banking world
+# **Define**
+## Affinity Mapping
+
+
+![Affinity Mapping](https://paper-attachments.dropbox.com/s_DB2D02C85791C79ADE0414C8CCD4BF8BCD71CFE09BE6AE9B5C029EEBD3BED258_1574319807618_My+First+Board.jpg)
+
+
+
+## Pain Points and Behaviors
+****- When people have an income or salary their don’t know how to manage it
+- People sometime lazy to note their income and outcome therefore it become a bad habit.
+- People’s outcome sometime is bigger than their income
+- People don’t know exactly about definition of credit, debit and another definitions in banking world
+- Most people ask the others about where is the nearest bank facilities are located
+
+
+## User Persona
+
+I made a user persona based on all of the informations that I have from my observation to guide me to make design decisions.
+
+
+![User Persona](https://paper-attachments.dropbox.com/s_DB2D02C85791C79ADE0414C8CCD4BF8BCD71CFE09BE6AE9B5C029EEBD3BED258_1573559702579_Group+1.png)
+
+## User Scenarios
+
+I developed three different user scenarios to help me to get a clearer pictures and explore more about how people can manage his finance and easily pay anything which the user want to buy using the user persona above.
+
+
+## Case #1
+
+**First Stage (Hillman's decision to buy stuff)**
+
+- Hilman just has been paid by his client
+- He want to buy some stuff at IKEA Alam Sutra
+- He look into the application and then he saw whether the budget was fulfilled or not
+- Then he happy that the budget has been fulfilled
+
+**Second Stage (Hilman go to IKEA)**
+
+- After hilman decided to buy some stuff for himself, then he go to IKEA Alam Sutra
+- And after he arrived at IKEA, he chose the item that he had thought to buy before.
+
+**Third Stage (Hilman pay the item)**
+
+- Then the officer ask Hilman what payment method do you want to use ? cash or using payment gateway ?
+    - #1 Hilman preferred to pay with CASH method :
+        - The officer will select CASH method for the payment.
+        - Hilman give the money.
+        - The officer confirm and finish the transaction.
+        - Hilman switch the budget status in the application as an outcome and then he noted the item has been paid by cash method.
+    - #2 Hilman preferred to pay with Payment Gateway method :
+        - he decide to pay using the application who integrated with payment gateway like GO-PAY, OVO, M-Banking, Virtual Banking (Debit or Credit), etc.
+        - Hilman choose the Payment Gateway method for the payment in the application
+        - The officer will select Payment Gateway method for the payment.
+        - The officer print out the receipt and ask Hilman to scan the QR Code.
+        - Hilman Scan the QR Code with the application.
+        - Then the detail payment screen will appear in Hilman’s smartphone and he confirm it.
+        - The officer gets the notification that Hilman just finish the payment and finish the transaction.
+        - Payment Success.
+        - Then the budget status will change automatically as an outcome and then the application noted the item has been paid by Payment Gateway Method like GO-PAY, OVO, Link Aja, etc.
+
+
+## Case #2
+
+**First Stage (Hillman's decision to buy stuff)**
+
+- Hilman just has been paid by his client
+- He want to buy some goods at IKEA Alam Sutra
+- He look into the application and then he saw whether the budget was fulfilled or not
+- Then he happy that the budget has been fulfilled
+
+**Second Stage (Hilman go to IKEA)**
+
+- After hilman decided to buy some stuff for himself, then he go to IKEA Alam Sutra
+- And after he arrived at IKEA, he chose the item that he had thought to buy before.
+
+**Third Stage (Hilman pay the item)**
+
+- Hilman preferred to pay with the e-money (virtual account) inside the My-Budget Application  : 
+        - The officer will select e-money payment method for the payment.
+        - The officer print out the receipt and ask Hilman to scan the QR Code.
+        - Hilman Scan the QR Code with the application
+        - Then the detail payment screen will appear in Hilman’s smartphone and he confirm it.
+        - The officer gets the notification that Hilman just finish the payment and finish the transaction.
+        - Payment Success.
+        - Then the budget status will change automatically as an outcome and then the application noted the item has been paid by his e-money.
+        
+
+Well, **Case #****2** **is preferred** because it can handle many issues very effective and efficient than the others. Therefore this app can manage someone budget, manage income-outcome-assets, and it also can be a payment gateway.
+
+I choose this case as a scope of this app.
+
+## Ideate
+### Wireframe
+
+I begin to make some sketch which defines potential solutions to solve pain points above. At this step, all of these solutions is based on my assumptions and not validated yet, because my concern is to find effective ways to navigate and show all the information also I concern to user needs.
+
+
+![Wireframe](https://paper-attachments.dropbox.com/s_DB2D02C85791C79ADE0414C8CCD4BF8BCD71CFE09BE6AE9B5C029EEBD3BED258_1573662162641_Wireframe.jpg)
+
+
+ 
+
+### Flow Chart
+
+
+![Flowchart](https://paper-attachments.dropbox.com/s_DB2D02C85791C79ADE0414C8CCD4BF8BCD71CFE09BE6AE9B5C029EEBD3BED258_1573717946099_Design+Process+Flowchart+Example.png)
+
+## Prototype
+### High Fidelity
+
+I make an high-fidelity User Interface based on the solutions and my experience on designing an application.
+This is the link for high quality User Interface images: 
+
+
+https://www.figma.com/file/LNrvURwxegkEFLYYXnWb7k/PD-Proclub?node-id=0%3A1
+
+
+[https://www.figma.com/file/LNrvURwxegkEFLYYXnWb7k/PD-Proclub?node-id=0%3A1](https://www.figma.com/file/LNrvURwxegkEFLYYXnWb7k/PD-Proclub?node-id=0%3A1)
+
+### Clickable Prototype ###
+
+Here is the clickable app that i made using Figma App
+
+
+https://www.figma.com/proto/LNrvURwxegkEFLYYXnWb7k/PD-Proclub?node-id=5%3A51&viewport=128%2C-526%2C0.5958371162414551&scaling=scale-down
+
+
+[https://www.figma.com/proto/LNrvURwxegkEFLYYXnWb7k/PD-Proclub?node-id=5%3A51&viewport=128%2C-526%2C0.5958371162414551&scaling=scale-down](https://www.figma.com/proto/LNrvURwxegkEFLYYXnWb7k/PD-Proclub?node-id=5%3A51&viewport=128%2C-526%2C0.5958371162414551&scaling=scale-down)
+
+### Test
+
+I just test the app to my siblings only to find out the application is good or not. I realize that the app is not completely finish. My sister commented the UI of the App and its sound good.
+
+

@@ -169,9 +169,11 @@
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 .proj-card {
+  margin-bottom: 30px;
   //   &:nth-child(3) {
   //     .card {
   //       strong {
