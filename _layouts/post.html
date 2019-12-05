@@ -5,10 +5,10 @@ layout: default
 <div class="logo-ornament"></div>
 <div class="container post">
     <div class="subtitle">
-        <a href="{{site.url }}">back to home</a>
+        <a href="{{site.url }}" id="back-home">back to home</a>
     </div>
     <h1 class="title is-1">{{page.title | escape}}</h1>
-    <div class="subtitle"><a href="">{{page.project_link}}</a></div>
+    <div class="subtitle"><a href="" class="project-link">{{page.project_link}}</a></div>
     <div class="content">
         {{content}}
     </div>
@@ -21,10 +21,19 @@ layout: default
 </div>
 
 <script>
-    let h2 = document.getElementsByTagName(" h2") for (let i = 0; i < h2.length; i++) {
+    let h2 = document.getElementsByTagName(" h2")
+    for (let i = 0; i < h2.length; i++) {
         h2[i].classList.add("title", "is-2")
-    } let h3 = document.getElementsByTagName("h3") for (let i = 0; i < h3.length;
-        i++) { h3[i].classList.add("title", "is-3") } let
-            a = document.getElementsByTagName("post")[0].getElementsByTagName("a") for (let i = 0; i < a.length; i++) {
-                a[i].href = a[i].innerHTML
-            } </script>
+    }
+    let h3 = document.getElementsByTagName("h3")
+
+    for (let i = 0; i < h3.length;
+        i++) { h3[i].classList.add("title", "is-3") }
+    let post = document.getElementsByClassName("post")[0]
+    let a = post.getElementsByTagName("a")
+    for (let i = 0; i < a.length; i++) {
+        if (a[i].id !== "back-home")
+            a[i].href = a[i].innerHTML
+    }
+
+</script>

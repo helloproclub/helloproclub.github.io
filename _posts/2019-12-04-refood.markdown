@@ -1,0 +1,89 @@
+---
+layout: post
+title: "Refood"
+date:   2019-12-04 22:23:24 +1000
+categories: product design
+author: Rezki Nando 
+author_pic: /assets/nando.jpeg 
+---
+# Analisis Aplikasi Refood
+
+Refood adalah sebuah platform aplikasi berbasis mobile yang bertujuan sebagai penghubung orang orang yang memiliki makanan berlebih yang masih layak makan agar dibagikan ke siapa saja yang membutuhkan.
+Refood ini menggunakan fitur Google Maps sebagai navigasi, sehingga pengguna dapat dengan mudah membagi lokasi pengambilan barang kepada orang yang mengambil makanannya. 
+
+Fitur lainnya pada aplikasi ini yaitu :
+
+- Lokasi makanan terdekat
+- Informasi detail makanan
+- Mudahnya berkomunikasi dengan realtime chat
+- Navigasi menuju pemberi makanan
+- Status makanan yang selalu update
+- Artikel tentang dampak tentang dampak pembuangan makanan
+
+Tujuan :
+
+1. Mengurangi kelaparan, kelangkaan makanan maupun hambatan akses memperoleh makanan layak bagi orang-orang yang tak berkecukupan. 
+2. Mengembalikan fungsi makanan menjadi makanan layak makan lagi dengan pengolahan secara tepat dan benar. 
+3. Meminimalisasi limbah makanan sisa terutama dari acara seperti hajatan, seminar dan nikahan maupun dari tempat-tempat rumah makan sehingga masih memiliki nilai guna bagi masyarakat yang membutuhkan. 
+4. Memberikan makanan kepada siapa saja bagi orang yang membutuhkan sekaligus meningkatkan kepedulian sosial diantara sesama. 
+5. Mengurangi disparitas daya beli makanan antara masyarakat tak berkecukupan dengan masyarakat yang berkecukupan. 
+
+Manfaat :
+
+
+1. Terciptanya hubungan sosial pada orang lain yang dilandasi dengan rasa saling peduli terhadap sesama yang membutuhkan. 
+2. Mengurangi pemborosan makanan yang masih layak dimakan sehingga tidak membuang-buang banyak sumber daya yang ada. 
+3. Mengajak orang lain untuk saling tolong-menolong. 
+4. Membuat proses perolehan bahan makanan menjadi lebih efektif dan efisien. 
+
+
+# Empathize
+
+Dalam tahap Empathize, saya mengidentifikasikan masalah tersebut dengan cara mengamati apa yang terjadi di lingkungan saya, mengenai masalah limbah makanan sisa. 
+Dalam penjabarannya, di targetkan bisa bisa membuat :
+
+- Wadah pengelola limbah makanan sisa cepat saji supaya mengurangi tingkat limbah & kelaparan di kalangan orang miskin
+- Wadah untuk seorang petani untuk mendistribusikan hasil tani yang layak makan namun tidak layak masuk ke dalam restoran
+- Sosialiasi mengenai beli makanan secukupnya supaya tidak menghasilkan limbah makanan
+
+
+## Objektif
+- Apakah banyak makanan sisa akibat dari warung atau restoran yang tidak laku ?
+- Bagaimana cara mereka mengatasi makanan sisa ?
+- Bagaimana solusi yang tepat supaya makanan tidak terbuang sia - sia ?
+
+
+
+
+# Define 
+## Point masalah & kebiasaan :
+- Pada saat mereka mempunyai makanan berlebih (misal ketika acara hajatan), mereka tidak mendistribusikannya dengan baik sehingga makanan yang ada menjadi basi dan terbuang sia - sia
+- Makanan tidak layak jual namun layak makan terkadang terbuang sia sia
+
+
+**Kasus**
+
+
+- Ihsan sedang mempunyai hajatan di rumahnya
+- Selama acara tersebut, Ihsan dan keluarganya mempunyai banyak sekali makanan
+- Namun setelah acara tersebut usai, makanan tersebut masih banyak tersisa di rumahnya
+- Karena Ihsan sudah merasa kekenyangan dan teman temannya sudah pulang
+- Ihsan pun membuang makanan tersebut
+- Secara tidak sadar, Ihsan sudah berkontribusi dalam membuat limbah makanan di Indonesia
+
+
+ 
+
+![](https://paper-attachments.dropbox.com/s_A5CD06E07F4EC61E992F12DC58FF6D7EAE1F6A9E32A2364BFF75E6E4AE1457CC_1574344944784_image.png)
+
+
+
+
+
+# Prototype
+
+[https://www.figma.com/file/PJfQzDGpv6Js9FOImejnQx/ReFood-APP-Final-Prototyping?node-id=0%3A1](https://www.figma.com/file/PJfQzDGpv6Js9FOImejnQx/ReFood-APP-Final-Prototyping?node-id=0%3A1)
+
+
+
+
