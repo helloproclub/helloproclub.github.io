@@ -1,14 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Hello Proclub</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
-    <link rel="stylesheet" href="/css/styles.css"> 
+    <link rel="stylesheet" href="/css/style.css">
 </head>
+
 <body>
+    <div class="container">
+        <nav class="navbar" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">
+                <a class="navbar-item" href="/">
+                    <img src="/assets/group@3x.png" style="min-width: 148px; min-height: 46px;">
+                </a>
+
+                <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false"
+                    data-target="navbarBasicExample">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
+            </div>
+
+            <div id="navbarBasicExample" class="navbar-menu">
+                <div class="navbar-start"></div>
+
+                <div class="navbar-end">
+                    <div class="navbar-item">
+                        <a href="">Home</a>
+                    </div>
+                    <div class="navbar-item">
+                        <a href="">Expertise</a>
+                    </div>
+                    <div class="navbar-item">
+                        <a href="">Achievements</a>
+                    </div>
+                    <div class="navbar-item">
+                        <a href="">Products</a>
+                    </div>
+                    <div class="navbar-item">
+                        <a href="">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <script>
+            document.addEventListener('DOMContentLoaded', () => {
+
+                // Get all "navbar-burger" elements
+                const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+                // Check if there are any navbar burgers
+                if ($navbarBurgers.length > 0) {
+
+                    // Add a click event on each of them
+                    $navbarBurgers.forEach(el => {
+                        el.addEventListener('click', () => {
+
+                            // Get the target from the "data-target" attribute
+                            const target = el.dataset.target;
+                            const $target = document.getElementById(target);
+
+                            // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+                            el.classList.toggle('is-active');
+                            $target.classList.toggle('is-active');
+
+                        });
+                    });
+                }
+
+            });
+        </script>
+    </div>
+
+
     {{content}}
+
+    <footer class="footer container">
+
+        <img src="/assets/group@3x.png" style="margin-bottom: 30px;max-width: 148px; max-height: 46px;" alt="">
+        <div class="footer-col ">
+            <div>
+                <h5 class="subtitle is-5">Contact us at</h5>
+                <h4 class="title is-4">sayhi@proclub.tech</h4>
+            </div>
+            <div>
+                <h5 class="subtitle is-5">Or find us through social media
+                </h5>
+                <h4 class="title is-4">@helloproclub</h4>
+            </div>
+        </div>
+    </footer>
+    <div class="credit">
+        Crafted with 🔥 in a single night by certain member
+    </div>
     <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
 </body>
+
 </html>

@@ -1,0 +1,28 @@
+---
+layout: default
+---
+
+<div class="container post">
+    <div class="subtitle">
+        <a href="{{site.url }}">back to home</a>
+    </div>
+    <h1 class="title is-1">{{page.title | escape}}</h1>
+    <div class="content">
+        {{content}}
+    </div>
+</div>
+
+<div class="proclub-banner-footer">
+    <div>Made By</div>
+    <img src="{{page.author_pic}}" alt="">
+    <strong>{{page.author}}</strong>
+</div>
+
+<script>
+    let h2 = document.getElementsByTagName(" h2") for (let i = 0; i < h2.length; i++) {
+        h2[i].classList.add("title", "is-2")
+    } let h3 = document.getElementsByTagName("h3") for (let i = 0; i < h3.length;
+        i++) { h3[i].classList.add("title", "is-3") } let
+            a = document.getElementsByTagName("post")[0].getElementsByTagName("a") for (let i = 0; i < a.length; i++) {
+                a[i].href = a[i].innerHTML
+            } </script>

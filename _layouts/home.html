@@ -2,4 +2,153 @@
 layout: default
 ---
 
-<h1>Hello World</h1>
+
+<div class="proclub-banner">
+    <div class="banner-content">
+        <div class="banner-col">
+            <div class="logo-container">
+                <img id="logo" src="/assets/logo@3x.png" alt="logo proclub" srcset="">
+            </div>
+            <div class="banner-desc">
+                <h1 class="title is-1">
+                    Proclub Telkom University
+                </h1>
+                <p>
+                    <strong>Proclub Telkom University</strong> or simply <strong>Proclub</strong> is an independent
+                    student organization
+                    under the School
+                    of
+                    Computing of Telkom University that act as an <strong>incubator</strong> for student who
+                    <strong>highly
+                        interested</strong> in ICT
+                    <strong>development and competition.</strong>
+                </p>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<div class="mobile-desc">
+    <h1 class="title is-1">
+        Proclub Telkom University
+    </h1>
+    <p>
+        <strong>Proclub Telkom University</strong> or simply <strong>Proclub</strong> is an independent
+        student organization
+        under the School
+        of
+        Computing of Telkom University that act as an <strong>incubator</strong> for student who
+        <strong>highly
+            interested</strong> in ICT
+        <strong>development and competition.</strong>
+    </p>
+</div>
+
+<div class="ornament"></div>
+<div class="ornament-2"></div>
+
+<div id="expertise" class="container section">
+    <h2 class="title is-2">Expertise In Proclub</h2>
+    <h3 class="title is-4">Proclub consists of 3 Expertise</h3>
+    <div class="expertise-col">
+        <div class="pd">
+            <div class="title">
+                PD
+            </div>
+            <div class="subtitle">
+                <strong>
+                    Product Designer
+                </strong>
+            </div>
+        </div>
+        <div class="ba">
+            <div class="title">
+                BA
+            </div>
+            <div class="subtitle">
+                <strong>
+                    Business Analyst
+                </strong>
+            </div>
+        </div>
+        <div class="se">
+            <div class="title">
+                SE
+            </div>
+            <div class="subtitle">
+                <strong>
+                    Software Engineer
+                </strong>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<div class="logo-ornament"></div>
+
+<div id="products" class="container section">
+    <h2 class="title is-2">Products</h2>
+    <h3 class="title is-4">Products crafted by our member</h3>
+    <div class="product-col">
+        <div class="item">
+            <div class="logo goni"></div>
+            <p style="margin-top: 30px;">
+                Gonigoni adalah sistem yang menghubungkan pengelola sampah dengan masyarakat.
+            </p>
+            <a href="https://gonigoni.id/">Read more</a>
+        </div>
+        <div class="item">
+            <div class="logo genwis"></div>
+            <p style="margin-top: 50px;">
+                Genwis adalah aplkasi mobile yang dapat mengatur rencana perjalanan wisata anda dengan mudah
+                berdasarkan kota tujuan, jangka waktu dan budget sesuai dengan yang anda tentukan.
+            </p>
+            <a href="http://www.generatorwisata.com/">Read more</a>
+        </div>
+
+        <div class="item">
+            <div class="logo studiplex"></div>
+            <p>Studiplex adalah sebuah platform edukasi online. yang berisi materi perkuliahan hingga pengetahuan
+                professional</p>
+
+            <a href="https://www.studiplex.com/">Read more</a>
+        </div>
+    </div>
+</div>
+
+<div id="products" class="container section">
+    <h2 class="title is-2">Teknofest Highlight</h2>
+    <h3 class="title is-4">Projects made by the newest addtion of the family</h3>
+
+    <div class="proj-col">
+        {%- for post in site.posts -%}
+        <div class="proj-card">
+            <div class="card">
+                <div class="card-content">
+                    <p class="title">
+                        {{ post.title | escape }}
+                    </p>
+                    <p class="subtitle">
+                        by {{ post.author | escape }}
+                    </p>
+                </div>
+                <footer class="card-footer">
+                    <p class="card-footer-item">
+                        <span>
+                            <a href="{{ post.url | relative_url }}">Read Here</a>
+                        </span>
+                    </p>
+                </footer>
+            </div>
+        </div>
+        {%- endfor -%}
+    </div>
+</div>
+
+<div class="proclub-banner-footer">
+    <p>If you’re looking for an adventure where you can sail through a tide of challenging problems and take
+        flight aboard the journey of building countries while being the captain of your own personal growth,
+        Proclub may be a home for you</p>
+</div>

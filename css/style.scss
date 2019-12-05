@@ -1,4 +1,353 @@
 ---
 # Front matter comment to ensure Jekyll properly reads file.
 ---
+
 // style start here
+
+.navbar-item a {
+  color: #939393;
+}
+
+.mobile-desc {
+  display: none;
+}
+
+.proclub-banner {
+  background: url(/assets/banner@3x.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 37vw;
+
+  * {
+    color: white;
+  }
+
+  position: relative;
+
+  #logo {
+    width: 16vw;
+    height: 18vw;
+    margin-right: 68px;
+  }
+
+  .banner-col {
+    display: flex;
+    flex-direction: row;
+    img {
+      max-width: 16vw;
+      max-height: 18vw;
+    }
+  }
+
+  .banner-content {
+    margin: 0 217px;
+    vertical-align: middle;
+    position: absolute;
+    top: 30%;
+
+    p {
+      font-size: 24px;
+      color: #b3b3b3;
+      strong {
+        font-weight: normal;
+      }
+    }
+  }
+
+  .columns {
+    margin-top: 0;
+    .column:nth-child(1) {
+      border: red 1px solid;
+      margin-right: 68px;
+    }
+  }
+}
+
+.section {
+  margin-bottom: 100px;
+  * {
+    text-align: center;
+  }
+
+  h3 {
+    color: #939393;
+    font-weight: normal;
+  }
+}
+
+.pd,
+.ba,
+.se {
+  * {
+    text-align: center;
+  }
+  width: 306px;
+  height: 306px;
+  .title {
+    font-size: 100px;
+    -webkit-text-stroke: 2px white;
+    color: #00000000;
+  }
+  padding: 65px 53px 18px 53px;
+  .subtitle strong {
+    font-size: 30px;
+    color: white;
+  }
+  border-radius: 5px;
+}
+
+.expertise-col {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.pd {
+  background: #fc8413;
+}
+
+.ba {
+  background: #209cf6;
+}
+
+.se {
+  background: #24292e;
+}
+
+@media only screen and (max-width: 1024px) {
+  .banner-desc {
+    display: none;
+  }
+
+  .mobile-desc {
+    margin: 30px;
+    display: block;
+    text-align: center;
+  }
+
+  .banner-col {
+    display: block;
+  }
+
+  .proclub-banner {
+    .banner-content {
+      position: relative;
+      .logo-container {
+        margin: auto;
+      }
+    }
+  }
+
+  .expertise-col {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  .product-col {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+    .item {
+      margin-bottom: 60px;
+    }
+  }
+}
+
+@media only screen and (max-width: 1366px) {
+  .proclub-banner {
+    .banner-content {
+      p {
+        font-size: 16px;
+      }
+    }
+  }
+}
+
+.proj-col {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.proj-card {
+  //   &:nth-child(3) {
+  //     .card {
+  //       strong {
+  //         display: block;
+  //         font-size: 30px;
+  //         color: white;
+  //         margin: auto;
+  //       }
+  //       background: #209cf6;
+  //       .card-content {
+  //         padding-top: 100px;
+  //         height: 350px;
+  //       }
+  //     }
+  //   }
+  .card {
+    width: 400px;
+    .card-content {
+      height: 300px;
+    }
+  }
+}
+
+.goni {
+  background: url(/assets/goni.png);
+  content: "";
+  width: 180px;
+  height: 180px;
+  background-size: 540px;
+  background-position-x: 50%;
+  background-position-y: -130%;
+}
+
+.genwis {
+  background: url(/assets/genwis.png);
+  content: "";
+  width: 160px;
+  height: 160px;
+  background-size: cover;
+}
+
+.studiplex {
+  background: url(/assets/studiplex.svg);
+  content: "";
+  width: 200px;
+  height: 200px;
+  background-size: cover;
+}
+
+.product-col {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+  .item {
+    .logo {
+      margin: auto;
+      border: red;
+    }
+    width: 300px;
+
+    p {
+      font-size: 20px;
+    }
+
+    a {
+      font-weight: bold;
+      display: block;
+      margin-top: 20px;
+    }
+  }
+}
+.proclub-banner-footer {
+  background: url(/assets/banner@3x.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: -5vw;
+  height: 23vw;
+  padding: 60px 100px;
+  font-size: 30px;
+  * {
+    color: white;
+  }
+  p {
+    width: 60%;
+  }
+
+  img {
+    float: right;
+    display: block;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+  }
+}
+
+.credit {
+  margin: auto;
+  text-align: center;
+  height: 56px;
+  font-size: 20px;
+  vertical-align: middle;
+  padding-top: 15px;
+  color: #969696;
+  background: #eee;
+}
+
+.footer {
+  height: 16vw;
+  background: white;
+}
+
+.footer-col {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  h5 {
+    color: #969696;
+  }
+}
+
+.ornament {
+  background: url(/assets/ornament-copy@3x.png);
+  content: "";
+  width: 27vw;
+  height: 15vw;
+  background-size: cover;
+  position: absolute;
+}
+
+.ornament-2 {
+  background: url(/assets/ornament-copy@3x.png);
+  content: "";
+  width: 27vw;
+  height: 15vw;
+  background-size: cover;
+  position: absolute;
+  right: 0;
+}
+
+.logo-ornament {
+  background: url(/assets/logo-copy-2@3x.png);
+  content: "";
+  width: 41vw;
+  height: 46vw;
+  background-size: cover;
+  position: absolute;
+  right: 0;
+}
+
+.logo-ornament-2 {
+  z-index: -1;
+  background: url(/assets/logo-copy-2@3x.png);
+  content: "";
+  width: 46vw;
+  height: 46vw;
+  background-size: cover;
+  position: absolute;
+}
+
+.post {
+  padding: 0 100px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  ul {
+    margin-left: 60px;
+    list-style-type: disc;
+  }
+
+  ol {
+    margin-left: 60px;
+  }
+
+  p {
+    font-size: 20px;
+    margin: 10px 0px;
+  }
+}
