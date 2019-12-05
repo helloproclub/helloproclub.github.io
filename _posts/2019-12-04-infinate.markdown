@@ -1,0 +1,98 @@
+---
+layout: post
+title: "Infinate"
+date:   2019-12-04 22:23:24 +0900
+categories: product design
+author: Irsyad Al Ghifary 
+author_pic: /assets/kip.JPG 
+---
+
+Mendesain sebuah solusi digital untuk menanggulangi atau setidaknya mengurangi pemborosan makanan yang menjadi salah satu masalah di Indonesia
+
+Food waste adalah pemborosan makanan siap saji dan konsumsi dengan membuang makanan tersebut atas alasan kekenyangan atau tidak suka dengan makanan tersebut.
+
+Food waste sendiri berkaitan erat dengan food loss, yaitu dibuangnya bahan pangan yang masih mentah seperti buah, sayuran atau bahan mentah yang lain sebelum sampai ke tangan konsumen. 
+
+Contohnya adalah petani buah naga di Banyuwangi membuang 10 keranjang panen buah naga mereka, karena buah-buah tersebut tidak diterima pengepul dengan alasan **tidak sesuai mutu** yang di inginkan pasar. Padahal masih layak konsumsi.
+
+Dampak food loss dan food waste di Indonesia, orang miskin kelaparan, orang kaya buang makanan.
+
+Selain itu, sampah yang dihasilkan dari food loss dan food waste juga menghasilkan gas methana yang membahayakan lingkungan. Gas methana adalah salah satu gas yang ikut andil dalam Global Warming. Gas methana juga bisa menimbulkan ledakan yang berbahaya. Hal ini pernah terjadi pada tahun 2005 di TPA Leuwigajah, Cimahi. Lebih dari 157 warga meninggal dunia akibat ledakan ini.
+
+
+![Indonesia menempati peringkat 2 sebagai negara ter - Food Loss dan ter-Food Waste](https://paper-attachments.dropbox.com/s_00075FB555C658A6A75F4DFB139AF37B149E0B243D9415829B313D3D4631CBF8_1574524993692_food-waste-hi-res-5dac7dda097f365382586842.jpg)
+
+
+Selain itu, ada beberapa fakta lain mengenai Food Waste yang terjadi di Indonesia. yaitu :
+
+
+    1. Rata-rata setiap orang di Indonesia membuang 300 kg makanan setiap tahun, menjadikan negara ini urutan kedua pembuang makanan terbesar di dunia setelah Saudi Arabia.
+    2. Di Indonesia, ada sekitar 19,4 juta orang menderita kurang gizi dan tidur dalam keadaan lapar.
+    3. Angka Indeks kelaparan global (Global Hunger Index) Indonesia pun mencapai 21,9%, sedikit lebih tinggi di atas Laos.
+    4. Lebih dari 36 persen anak Indonesia berumur dibawah 5 tahun, menderita stunting 
+    
+
+Berdasarkan fakta di atas, benar adanya bahwa problem Food Waste yang terjadi ini, khususnya di Indonesia, tidak hanya merugikan lingkungan. Namun mempengaruhi kualitas kehidupan pula.
+
+Maka dari itu, saya mencoba untuk mendesain sebuah solusi digitial atas masalah ini yang ditujukan untuk para masyarakat indonesia agar tidak boros atau bahkan membuang - buang makanan.
+
+## The Challenges
+- Menemukan solusi untuk menanggulangi pemborosan makanan.
+- Membuat solusi digital untuk permasalahan ini.
+- Memperbaiki mind-set pengguna agar tidak membuang makanan.
+
+
+## Empathize
+
+Untuk lebih memahami masalah ini, saya melakukan mini-research ke beberapa website tentang solusi dan fakta-fakta yang terjadi di Indonesia mengenai food waste dan juga saya melakukan interview online melalu instagram agar lebih mudah menemukan di bagian mana masalah yang paling sering dihadapi dan solusi atas masalah ini.
+
+### Objective
+- Mendefinisikan kenapa orang orang membuang-buang makanan
+- Mengetahui bagaiamana orang-orang tersebut menghadapi dan memecahkan masalah tersebut.
+### Hasil Survey
+
+Hasil survey dari 61 responden
+
+![Hasil Survey dari  Polling di Instagram](https://paper-attachments.dropbox.com/s_00075FB555C658A6A75F4DFB139AF37B149E0B243D9415829B313D3D4631CBF8_1574815118612_Hasil.png)
+
+
+Selanjutnya saya menanyakan penyebab dan solusi yang mereka lakukan terhadap Food Waste yang mereka lakukan
+
+![Jawaban responden mengenai pengalaman Food Waste mereka](https://paper-attachments.dropbox.com/s_00075FB555C658A6A75F4DFB139AF37B149E0B243D9415829B313D3D4631CBF8_1574814494968_Answers.png)
+
+## Define 
+![Affinity Mapping](https://paper-attachments.dropbox.com/s_00075FB555C658A6A75F4DFB139AF37B149E0B243D9415829B313D3D4631CBF8_1574897658607_Hasil+survey.jpg)
+
+
+Selanjutnya saya menggunakan Affinity Mapping Method untuk menguraikan jawaban responden yang telah didapat sehingga lebih mudah untuk menyimpulkan penyebab utama dan solusi yang paling efektif untuk menangani food waste berdasarkan data yang telah saya dapatkan.
+
+Jawaban dari responden bervariatif. Saat ditanya alasan kenapa mereka tidak bisa menghabiskan makanan yang mereka buat atau beli, “Kekenyangan” adalah alasan yang paling banyak ditemukan dan “Terlalu banyak porsinya” ada setingkat dibawah alasan “Kekenyangan”.
+
+Saat ditanya solusi, solusi yang muncul paling banyak berfokus pada food sharing. sisanya disimpan untuk dimakan nanti dan ironisnya masih ada yang mengandalkan solusi dibuang.
+
+
+### Paint Poin & Behaviors
+- “Kekenyangan” adalah alasan yang paling banyak muncul dari responden. mereka akan membagikan makanan mereka yang tidak habis. namun, seringkali tidak menemukan orang/teman yang mereka cari sehingga pada akhirnya tetap dibuang
+- Beberapa responden memilih untuk menyimpan makanan mereka untuk dimakan nanti. tetapi makanan yang telah disimpan untuk beberapa saat tidak akan se enak saat baru disajikan. ada responden yang memilih untuk membumbui lagi makanan tersebut. namun tetap saja ada yang memilih untuk membuangnya dan ada kemungkinan pula mereka lupa untuk memakan makanan yang mereka simpan.
+- Responden memberikan makanan sisa mereka ke hewan hewan seperti kucing. namun perlu di ingat tidak semua hewan merupakan omnivora. hanya beberapa jenis makanan saja yang akan dimakan hewan-hewan tertentu.
+- Sebagian kecil responden yang pernah melakukan food waste beralasan mereka membeli suatu makanan hanya karena lapar mata, tidak mood makan atau memang makananya sudah tidak layak dimakan karena kesalahan menyimpan atau ada serangga yang masuk.
+### User Persona
+![](https://paper-attachments.dropbox.com/s_00075FB555C658A6A75F4DFB139AF37B149E0B243D9415829B313D3D4631CBF8_1575104645209_custom++1.png)
+
+## Ideate
+
+Selanjutnya adalah membuat sketsa awal mengenai solusi digital yang akan dibuat. Fitur dan gaya tampilan menggunakan acuan data yang telah diperolah dan user persona. Berikut adalah Wireframe (Low - Fidelity) yang saya buat di kertas
+
+![8 Tampilan pertama](https://paper-attachments.dropbox.com/s_00075FB555C658A6A75F4DFB139AF37B149E0B243D9415829B313D3D4631CBF8_1575300916137_IMG_20191202_223217.jpg)
+
+![8 Tampilan Kedua](https://paper-attachments.dropbox.com/s_00075FB555C658A6A75F4DFB139AF37B149E0B243D9415829B313D3D4631CBF8_1575300940007_IMG_20191202_223245.jpg)
+
+
+Wireframe diatas menjadi acuan saya dalam mendesain High - Fidelity. Dalam proses pembuatanya saya temukan beberapa pengaturan yang tidak ada di wireframe karena perlunya penyesuaian agar tampilan terlihat lebih rapih.
+
+### High - Fidelity
+
+Berikut adalah desain UI yang saya buat. Saya menekankan penyampaian yang kalem dan down to earth dalam desain saya. Ilustrasi cartoon dan warna oranye saya pilih karena ingin membuat mood user berada dalam kondisi nyaman dan senang.
+
+
+[https://www.figma.com/file/AVSLtghBcg8GAHdsMQzfXB/Infinate](https://www.figma.com/file/AVSLtghBcg8GAHdsMQzfXB/Infinate)
