@@ -1,0 +1,133 @@
+---
+layout: post
+title: "Go-Share!"
+date:   2019-12-04 22:23:24 +0900
+categories: product design 
+author: Luqman Haries
+author_pic: /assets/luqman.jpg 
+---
+## Overview
+
+Di era digitalisasi saat ini, banyak sekali iklan iklan produk yang sangat menarik dan murah, terutama iklan produk makanan siap saji ataupun bahan mentah. Dengan demikian masyarakat tertarik untuk membeli secara berlebihan dan mengakibatkan produk yang dibeli tersebut tidak digunakan dan berakhir ke tempat sampah **(Food Waste)**.
+
+## The Challenge
+- Mengubah pola berfikir masyarakat untuk tidak membuang bahan makanan yang masih dapat kita gunakan, ***(Food Sharing)***
+- Membuat makanan dengan bahan bahan yang sudah tersedia
+- Sebagai pengingat bahwa bahan makanan sudah ada dengan jumlah yang cukup banyak dan tertera waktu ketahanan kesegaran bahan makanan tersebut
+## Fact
+![food waste by AJLabs](https://www.aljazeera.com/mritems/Images/2019/10/16/f95bb1322bbc45cc844bbe173b07374a_18.jpg)
+
+- Food and Agriculture Organization (FAO) yang mengungkap 1/3 sampah organik dari semua makanan yang diproduksi di seluruh dunia (sekitar 13 milyar ton) terbuang sia-sia, dengan detail 45% buah dan sayur-mayur, 35% seafood, 30% sereal, 20% produk susu, dan 20% daging.
+- Sampah tersebut dapat mempengaruhi iklim dunia karena sampah organic menghasilkan gas metan yang dapat memrusak iklim dunia.
+- Data tahun 2010, Amerika Serikat menghasilkan 34 juta ton sampah makanan dan hanya 3 persen yang mampu di daur ulang kembali.
+
+Berdasarkan data diatas, selain kita mendaur ulang sampah sampah tersebut menjadi pupuk kompos, **kita juga harus mencegah pemborosan** dalam membeli bahan pangan atau makanan , agar tidak menyianyiakan sumber makanan yang akhirnya tidak kita makan, membusuk/basi dan dibuang secara cuma cuma.
+
+## Empathize
+
+Objective
+
+- Kenapa masyarakat membuang buang makanan ?
+- Kenapa masyarakat membeli bahan pangan tersebut secara berlebihan?
+- Bagaimana cara masyarakat untuk mengurangi pemborosan makanan ?
+- Apa yang mereka lakukan sebelum membuang makanan?
+
+ 
+Empathize Maps 
+
+![Empathize map](https://paper-attachments.dropbox.com/s_47CA27E28E38148F8A39796F7080A0373A2A0C1086B45642A3F962E17C1DF14A_1575477540333_emp.jpg)
+
+## Define
+
+Berikut adalah ***Pain Point  &*** **Behaviors** ****yang didapat dari Empathize map:
+
+1. Jenis masakan apa yang dapat saya olah dengan bahan yang saya punya
+2. Ketika masyarakat berada pada supermarket, dan terdapat diskon yang menarik, setidaknya mereka mengingat “Apakah bahan makanan tersebut masih tersedia dirumah ?”
+3. Membeli bahan makanan terlalu banyak dan akhirnya tidak terpakai
+4. Jika pengguna tidak memiliki waktu untuk mengolah bahan makanan tersebut dan Ingin memberikan bahan makanan tersebut kepada pengguna lain sebelum kesegarannya hilang
+
+***Personas***
+Setelah melakukan research pengguna, kita akan membuat 2 orang Pengguna utama
+
+***User 1***
+Seorang wanita pekerja yang hobi memasak, berbelanja kebutuhan pangan dan mengeksplorasi bahan pangan tersebut. 
+
+***Needs***
+
+- Mendata bahan pangan agar tidak membelinya lagi.
+- Mengetahui olahan yang berbeda dengan bahan pangan yang sudah tersedia
+- Membagikan bahan pangan yang tidak terpakai kepada orang lain tanpa harus mengantarnya.
+
+***Frustrations***
+
+- Bahan pangan yang tidak termanage jumlahnya dan tidak terpakai habis sehingga bahan pangan tersebut sudah tidak segar/busuk/basi dan berakhir ketempat sampah.
+- bosan dengan olahan yang sama setiap harinya dengan bahan pangan yang tersedia
+- Membagikan kepada orang lain yang ingin mengolahnya.
+
+***User 2*** 
+Seorang mahasiswa/i yang memiliki pemasukan yang terbatas, dan ingin membatasi pengeluaran bulanan untuk tidak membeli pangan secara berlebih dan mengoptimalkan bahan pangan yang dia miliki.
+
+***Needs***
+
+- Menemukan resep masakan yang bahan pangannya sama dengan yang saya punya, tanpa harus membelinya, jikapun harus membelinya saya utamakan untuk mencari kepada teman, keluarga atau tetangga.
+- Mengingatkan kalau bahan pangan tersebut tingkat kesegarannya menurun.
+
+***Frustrations*** 
+
+- Bahan pangan yang hanya kurang sedikit dan tidak ingin membelinya
+- Melupakan bahan pangan yang cepat basi
+
+***Validate***
+
+![Validate 2 persona](https://paper-attachments.dropbox.com/s_47CA27E28E38148F8A39796F7080A0373A2A0C1086B45642A3F962E17C1DF14A_1575477553923_vali.jpg)
+
+
+**Solution**
+
+![The solutions Hieracy](http://static1.squarespace.com/static/54b30bbae4b0fc4c2291385e/t/57da0897e4fcb58ff2e6a262/1473906844823/?format=1500w)
+
+
+Dari illustrasi diatas kita akan fokus pada ***Food For People***
+
+Dari ***Problem*** tersebut, kita akan memanfaatkan media digital untuk meningkatkan kesadaran pengguna dengan memiliki fitur sebagai berikut:
+
+- ***Remainder,*** ****untuk mengingatkan pengguna bahwa kesegaran dari bahan pangan tersebut akan segera hilang.
+- ***Food for People,*** membagikan bahan pangan tersebut kepada pengguna lain atau bertukar atau memberikannya kepada pihak yang membutuhkan(rumah zakat, dll).
+- ***Storage,*** pangan yang pengguna punya.
+- W***hat could it be***, apa yang bisa dibuat dengan bahan pangan yang pengguna punya.
+
+Untuk memudahkan fitur ***Food for People***, kita akan mempermudah pengguna untuk memberikan bahan pangan tersebut kepada pengguna lain dengan membuat fitur **Goshare** di Applikasi yang sudah populer yaitu **Gojek**.
+
+## Ideate
+
+**Flow**
+
+![Flow GoShare](https://paper-attachments.dropbox.com/s_47CA27E28E38148F8A39796F7080A0373A2A0C1086B45642A3F962E17C1DF14A_1575477564383_Flow.jpg)
+
+
+**Low Fidelity**
+
+![Low Fidelity GoShare](https://paper-attachments.dropbox.com/s_47CA27E28E38148F8A39796F7080A0373A2A0C1086B45642A3F962E17C1DF14A_1575477574826_lofi.jpg)
+
+
+**High Fidelity**
+
+![hifi](https://paper-attachments.dropbox.com/s_47CA27E28E38148F8A39796F7080A0373A2A0C1086B45642A3F962E17C1DF14A_1575477662668_hifi.JPG)
+
+## Prototype
+
+Prototype yang saya buat disini menggunakan ***Adobe Xd,*** saya membuat interaksinya sesuai alur  yang sudah saya siapkan untuk ***Users testing.***
+
+Link Interaksi : [Klik disini!](https://xd.adobe.com/view/e333fd1a-16b3-44e6-7b7d-e0a3fc412304-9502/?fullscreen)
+ 
+
+## Testing
+
+Skenario :
+
+1. Menambahkan satu item di item storage **(Storage)**,
+2. Memyumbangkan “Asparagus” kepada pengguna lain. (**Food Sharing 1)**
+3. Menyumbangkan 10 buah “Apel” ke Rumah sosial **(Food Sharing 2)**
+4. Mencari bahan makanan “Madu” kepada pengguna, lain **(Food Sharing 3)**
+5. Membuat resep makanan yang siap jadi **(Recipe)**
+6. Apakah user mengerti Aplikasi tersebut untuk apa ? (Untuk mengurangi pemberosan bahan pangan)

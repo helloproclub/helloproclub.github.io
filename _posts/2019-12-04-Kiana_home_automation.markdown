@@ -2,7 +2,7 @@
 layout: post
 title:  "API Gateway for a home automation device using MQTT & nodeJS"
 date:   2019-12-04 22:23:24 +0700
-categories: product design
+categories: software engineering iot
 author: Muhammad iqbal syamil ayasy
 author_pic: https://avatars3.githubusercontent.com/u/22183588?s=400&v=4
 project_link: https://github.com/2pai/kiana
@@ -18,6 +18,8 @@ Kiana merupakan sebuah API gateway yang menghubungkan perangkat IOT dengan REST 
 - Setiap perangkat IOT akan di daftarkan dan memperoleh topic dari MQTT server untuk di publish dan subscribe  dari device IOT tersebut 
 - Apabila user ingin melihat info (input) dari perangkat IOT maka API gateway akan membaca log dari influxDB tentang device tsb
 - Apabila user ingin melakukan aksi pada perangkat IOT melalui REST server. maka ketika request diterima akan mempublish aksi kedalam topic pada perangkat IOT yang terdaftar
+
+![](/assets/kiana.png)
 
 ## Teknologi yang digunakan
 
