@@ -18,3 +18,14 @@ Website untuk melihat berapa banyak orang dengan nama yang sama dengan memasukan
 ## Cara Kerja
 1. User memasukan nama
 2. Website akan menampilkan jumlah nama yang sama,jumlah nama yang sama di tiap kota,jumlah nama yang sama untuk tiap jenis kelamin.
+
+![](/assets/kpu.jpg)
+
+
+- Teknologi yang digunakan
+- Bahasa pemrograman         : Python,JavaScripts
+- Database                         : MongoDB
+- REST Server                        : djangorestframework
+- Situs Website                : React,Redux
+- Web Scraping                : BeautifulSoap,Selenium
+- Scraping target                : https://lindungihakpilihmu.kpu.go.id/index.php/rekap

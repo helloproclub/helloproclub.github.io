@@ -324,6 +324,7 @@
   background-size: cover;
   position: absolute;
   right: 0;
+  z-index: -1;
 }
 
 .logo-ornament-2 {
@@ -352,5 +353,23 @@
   p {
     font-size: 20px;
     margin: 10px 0px;
+  }
+}
+
+#career {
+  .career-col {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .icon {
+    width: 200px;
+    height: 200px;
+
+    display: block;
+
+    &:nth-child(2),
+    &:nth-child(4) {
+      margin-top: 200px;
+    }
   }
 }
