@@ -3,7 +3,7 @@ layout: post
 title: "Refood"
 date:   2019-12-04 22:23:24 +1000
 categories: product design
-author: Rezki Nando 
+author: Rezki Nanda
 author_pic: /assets/nando.jpeg 
 ---
 # Analisis Aplikasi Refood
